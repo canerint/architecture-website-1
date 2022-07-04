@@ -1,0 +1,37 @@
+.nav-item:hover {
+    opacity: 0.6;
+    border-radius: 6px;
+    background: lightblue;
+}
+
+body{
+    font-family: Lora, serif;
+    font-size: calc(14px + 0.3vw); 
+}
+
+.footer {
+    background: black;
+    height: 40px;
+    display: flex;
+    z-index: 121;
+
+}
+
+#footer .footer ul li a {
+    color: aliceblue;
+
+}
+
+#footer .footer ul li {
+    width: 30px;
+    align-items: center;
+    display: inline-block;
+}
+
+#footer .footer p {
+    color: white;
+}
+
+#footer .footer p span {
+    color: red;
+}
