@@ -127,7 +127,8 @@ body {
 .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: rgb(211, 211, 211);
+    color: rgb(47, 47, 48);
     border-radius: 5px;
     width: 30%;
     position: relative;
@@ -152,7 +153,7 @@ body {
 }
 
 .popup .close:hover {
-    color: #06D85F;
+    color: grey;
 }
 
 .popup .content {
