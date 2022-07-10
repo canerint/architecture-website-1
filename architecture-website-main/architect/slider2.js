@@ -26,7 +26,7 @@ $(document).ready(function () {
        //*> OPTIONAL SETTINGS
       ************************/
     //automatic slider
-    var autoSlider = setInterval(slideRight, 3000);
+    var autoSlider = setInterval(slideRight, 8000);
 
     //for each slide
     $.each($("#slider-wrap ul li"), function () {
@@ -54,7 +54,7 @@ $(document).ready(function () {
         },
         function () {
             $(this).removeClass("active");
-            autoSlider = setInterval(slideRight, 3000);
+            autoSlider = setInterval(slideRight, 8000);
         }
     );
 }); //DOCUMENT READY
